@@ -1,0 +1,24 @@
+<html>
+ 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>JQuery文件下载</title>
+    <script type="text/javascript" src="../libs/jquery.min.js"></script>
+    <script type="text/javascript" src="../libs/plugins/multidown/jquery.multidownload.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $("#download").click(function() {
+            var downloadUrl = ['http://10.20.100.95:8020/qianduan/interface-manager/libs/plugins/jsexcel/module.xlsx'];
+            $(downloadUrl).multiDownload({"source":"local"});
+        });
+    });
+   
+    
+    </script>
+</head>
+ 
+<body>
+    <a id='download' href="#">下载</a>
+</body>
+ 
+</html>

@@ -1,0 +1,26 @@
+.Wdate{
+	height:30px;
+	line-height:30px;
+	background:#fff url(datePicker.png) no-repeat 98% 50%;
+	border: 1px solid #c9c9c9;
+	padding-left:4px;
+}
+.sh-add .Wdate{
+	background:#FBFDFD url(datePicker.png) no-repeat right;
+}
+.sh-add .graybg .Wdate{
+	background:#F0F1F1 url(datePicker.png) no-repeat right;
+}
+.Wdate75 {
+	width: 97%;
+}
+
+.Wdate::-ms-clear{display:none;}
+
+.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}
+.pop-main .Wdate{
+	background:#fff url(datePicker.png) no-repeat right;
+}
